@@ -5,3 +5,4 @@ NOTE: Open main not app
 2.2nd commit improvement done to java code only settings incomplete
 3.Added code to RecipeAdapter.java,SuggestedRecipes.java and RecipeDetailActivity which were all previously empty
 4.Improvement to settings, now function
+5.Improvement to settings, they now display units of measurement preferences and Database Helper improvement(refactored)
