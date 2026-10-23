@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomato Omelette"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#234B35" />
+
+    <TextView
+        android:id="@+id/txtRecipeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View ingredients and preparation steps."
+        android:textSize="14sp"
+        android:layout_marginTop="6dp" />
+
+    <Button
+        android:id="@+id/btnViewRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Recipe"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
